@@ -1,5 +1,5 @@
 body {
-    background-color: #000;
+    background-color: #4B0082;
 }
 
 .sidebar {
@@ -12,13 +12,13 @@ body {
 }
 
 .sidebar_navigation {
-    background-color: #121212;
+    background-color: #8722e6;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar_navigation .logo {
-    background: #121212;
+    background: #8722e6;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;

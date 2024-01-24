@@ -11,3 +11,6 @@ https://fontawesome.com/icons
 
 Github Imersão Front End
 https://github.com/mayaracardoso/spotify-imersao
+
+Cores em Hexadecimal
+https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb

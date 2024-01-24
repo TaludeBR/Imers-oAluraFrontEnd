@@ -15,13 +15,12 @@
 </head>
 <body>
     <div class="sidebar">
-        <nav class="sidebar_navigation">
+        <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
                     <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
                 </a>
             </div>
-            <div>
                 <ul>
                     <li>
                         <a href="">
@@ -36,20 +35,48 @@
                         </a>
                     </li>
                 </ul>
-            </div>
         </nav>
-        <nav class="sidebar_biblioteca">
-            <div class="biblioteca">
-                <ul>
-                    <li>
-                        <a href="">
-                            <span class="fa-solid fa-book"></span>
-                            <span>Biblioteca</span>
-                        </a>
-                    </li>
-                </ul>
+
+        <div class="library">
+            <div class="library__content">
+                <button class="library__button">
+                    <span class="fa-solid fa-book"></span>
+                    <span>Sua Biblioteca</span>
+                </button>
+                <span class="fa-solid fa-plus" ></span>
             </div>
-        </nav>
+
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                    <button class="section-playlist__button">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa-solid fa-globe"></span>
+                    <span>Portugês do Brasil</span>
+                </button>
+            </div>
+        </div>
+
     </div>
+    <footer>
+        <div class="footer-content">
+          <span>Isto é um rodapé</span>
+          <button class="footer-content__button">
+            <span>Botão do Rodapé</span>
+        </div>
+    </footer>
+
 </body>
+
 </html>

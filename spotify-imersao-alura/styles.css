@@ -2,6 +2,7 @@ body{
     background-color: #2f0050;
 }
 
+/*NAVEGAÇÃO ---------------------------------------------*/
 .sidebar{
     position: fixed;
     top: 0;
@@ -45,6 +46,7 @@ body{
     font-family: "DM Sans", sans-serif;
 }
 
+/*BIBLIOTECA -----------------------------------------------*/
 .library{
     display: flex;
     background-color: #6e0ec9;
@@ -89,6 +91,7 @@ body{
     margin: 24px 10px;
 }
 
+/*PLAYLIST -----------------------------------------------------*/
 .section-playlist{
     display: flex;
     align-items: flex-start;
@@ -140,6 +143,7 @@ body{
     width: 113px;
 }
 
+/*COOKIES ---------------------------------------------------------*/
 .sidebar .cookies{
     margin: 25px 20px;
 }
@@ -155,6 +159,7 @@ body{
     text-decoration: underline;
 }
 
+/*IDIOMA -----------------------------------------------------------*/
 .languages .languages__button{
     align-items: center;
     background-color: transparent;

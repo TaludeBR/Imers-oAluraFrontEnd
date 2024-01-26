@@ -14,3 +14,5 @@ https://github.com/mayaracardoso/spotify-imersao
 
 Cores em Hexadecimal
 https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb
+
+Exceção para executar o json no Terminal do VS Code: Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser

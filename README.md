@@ -15,4 +15,9 @@ https://github.com/mayaracardoso/spotify-imersao
 Cores em Hexadecimal
 https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb
 
-Exceção para executar o json no Terminal do VS Code: Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+Exceção para executar o json no Terminal do VS Code:
+1)   npm uninstall -g json-server
+2)  npm install -g json-server@0.17.4
+3)   json-server --watch api-artists/artists.json port 3000
+*se der erro no passo 3 executa a função abaixo e depois o passo 2 novamente
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
